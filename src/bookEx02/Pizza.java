@@ -1,4 +1,4 @@
-package ex02;
+package bookEx02;
 
 public class Pizza {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex02;
+package bookEx02;
 
 public class ComOperator {
     public static void main(String[] args) {
