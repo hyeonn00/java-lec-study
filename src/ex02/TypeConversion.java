@@ -1,6 +1,6 @@
 package ex02;
 
-public class ChaEx03 {
+public class TypeConversion {
     public static void main(String[] args) {
         int i;
         double f;
