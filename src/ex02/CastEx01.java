@@ -7,4 +7,5 @@ public class CastEx01 {
         num = 2;
         // sum = 20;
     }
+
 }
