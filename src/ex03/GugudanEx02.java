@@ -1,21 +1,15 @@
 package ex03;
 
-import java.util.Scanner;
-
 public class GugudanEx02 {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("단: ");
-        int num = sc.nextInt();
+        for(int k = 1; k < 10; k++) {
+            for (int i = 2; i < 10; i++) {
+                int d=i*k;
 
-        int x;
-        int i = 0;
-        while (i<9){
-            i++;
-            x = num * i;
-            System.out.printf("%d * %d = %d\n", num, i, x);
+                System.out.printf("%d * %d = %d\t", k, i ,d);
             }
+            System.out.println();
         }
     }
-
+}
