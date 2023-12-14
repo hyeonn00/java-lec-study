@@ -8,5 +8,15 @@ public class ProgEx06 {
         System.out.print("드라이브 이름: ");
         String driveName = sc.nextLine();
 
+        System.out.print("디렉터리 이름: ");
+        String directory = sc.nextLine();
+
+        System.out.print("파일 이름: ");
+        String fileName = sc.nextLine();
+
+        System.out.print("확장자: ");
+        String user = sc.nextLine();
+
+        System.out.println( driveName + ":" + directory + fileName + "." + user);
     }
 }
