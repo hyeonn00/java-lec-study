@@ -12,17 +12,18 @@ public class ProgEx12 {
         int num=0;
         ArrayList<Integer> score = new ArrayList<>();
         while (num != -1){
+            count++;
             System.out.print("성적을 입력하세요: ");
             num = sc.nextInt();
             score.add(num);
             sum += num;
-            count++;
+
 
             if (num == -1){
                 break;
             }
         }
         System.out.println("합계: " + (sum+1));
-        System.out.println("평균: " + (sum+1)/(count));
+        System.out.println("평균: " + (sum+1)/(count-1));
     }
 }
