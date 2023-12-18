@@ -1,28 +1,28 @@
 package ex03;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ProgEx12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int sum = 0, count = 0;
-        double avg = 0;
-        while (true){
-            count++;
+        double sum = 0;
+        int count = 0;
+        int num=0;
+        ArrayList<Integer> score = new ArrayList<>();
+        while (num != -1){
             System.out.print("성적을 입력하세요: ");
-            int num = sc.nextInt();
-            int[] arr = new int[num];
-            sum = sum + arr[count];
+            num = sc.nextInt();
+            score.add(num);
+            sum += num;
+            count++;
 
-            avg = sum / count;
             if (num == -1){
                 break;
             }
-
         }
+        System.out.println("합계: " + (sum+1));
+        System.out.println("평균: " + (sum+1)/(count));
     }
-//        System.out.println("합계: " + sum);
-//        System.out.println("평균: " + avg);
-
 }
