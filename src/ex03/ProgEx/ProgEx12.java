@@ -1,4 +1,4 @@
-package ex03;
+package ex03.ProgEx;
 
 import java.util.ArrayList;
 import java.util.Scanner;
