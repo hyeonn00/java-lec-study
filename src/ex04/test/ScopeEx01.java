@@ -22,7 +22,6 @@ public class ScopeEx01 {
         ScopeEx01 sc = new ScopeEx01();
         System.out.println(sc.n1);
         sc.m2();
-
     }
 }
 
