@@ -2,11 +2,11 @@ package ex04.test;
 
 public class ScopeEx01 {
 
-    int n1 = 1; // heap
-    static int n2 = 2; // static
+    int n1 = 1;         // heap
+    static int n2 = 2;  // static
 
     static void m1(){
-        int n5 = 10;  // stack
+        int n5 = 10;    // stack
         System.out.println("m1: " + n5);
     }
 
@@ -19,6 +19,10 @@ public class ScopeEx01 {
         System.out.println(1);
         m1();
         System.out.println(2);
+        ScopeEx01 sc = new ScopeEx01();
+        System.out.println(sc.n1);
+        sc.m2();
 
     }
 }
+
