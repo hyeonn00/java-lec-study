@@ -3,7 +3,6 @@ class Cat{
     String name;
 
     Cat(){
-        //this.name = "토비";
     this("토비");
     }
 
