@@ -1,4 +1,4 @@
-package bookEx.bookEx04;
+package ex04;
 class Cat{
     String name;
 
