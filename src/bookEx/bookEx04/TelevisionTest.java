@@ -1,11 +1,11 @@
 package bookEx.bookEx04;
 
-class Telvision{
+class Television {
     private int channel;
     private int volume;
     private boolean onOff;
 
-    Telvision(int c, int v, boolean o){
+    Television(int c, int v, boolean o){
         channel = c;
         volume = v;
         onOff = o;
@@ -16,10 +16,10 @@ class Telvision{
 }
 public class TelevisionTest {
     public static void main(String[] args) {
-        Telvision myTv = new Telvision(7, 10, true);
+        Television myTv = new Television(7, 10, true);
         myTv.print();
 
-        Telvision yourTv = new Telvision(11, 20, true);
+        Television yourTv = new Television(11, 20, true);
         yourTv.print();
     }
 }

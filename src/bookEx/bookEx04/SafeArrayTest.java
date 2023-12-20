@@ -1,4 +1,4 @@
-package ex04;
+package bookEx.bookEx04;
 class SafeArray{
     private int[] a;
     public int length;
