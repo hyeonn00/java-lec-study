@@ -1,4 +1,4 @@
-package ex03.ProgEx;
+package bookProgEX.Ex03;
 
 import java.util.ArrayList;
 import java.util.Scanner;

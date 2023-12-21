@@ -1,6 +1,4 @@
-package ex02;
-
-import java.util.Scanner;
+package bookProgEX.Ex02;
 
 public class ProgEx01 {
     public static void main(String[] args) {

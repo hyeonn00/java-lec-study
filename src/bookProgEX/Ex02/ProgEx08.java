@@ -1,4 +1,4 @@
-package ex02;
+package bookProgEX.Ex02;
 
 import java.util.Scanner;
 

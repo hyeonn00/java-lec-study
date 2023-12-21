@@ -1,4 +1,4 @@
-package ex03.ProgEx;
+package bookProgEX.Ex03;
 
 public class ProgEx08 {
     public static void main(String[] args) {
