@@ -1,4 +1,4 @@
-package ex06.Example;
+package ex06.Example01;
 class Animal {
     void speak() {
         System.out.println("멍멍");
