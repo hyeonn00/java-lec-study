@@ -16,7 +16,7 @@ class Cat extends Animal{
 }
 public class AnimalEx01 {
     public static void main(String[] args) {
-        Animal c1 = new Cat(); // [Cat, Animal]
+        Animal c1 = new Cat();
         c1.speak();
         c1.run();
     }
