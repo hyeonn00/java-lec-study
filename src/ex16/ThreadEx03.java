@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 public class ThreadEx03 extends JFrame {
     private boolean state = true;
+    private boolean state1 = true;
     private int count = 0;
     private int count2 = 0;
     private JLabel countLabel;
@@ -30,12 +31,18 @@ public class ThreadEx03 extends JFrame {
 
         // 멈춤 버튼 생성
         JButton increaseButton = new JButton("멈춤");
+        JButton increaseButton1 = new JButton("멈춤");
         increaseButton.setAlignmentX(CENTER_ALIGNMENT);
+        increaseButton1.setAlignmentX(CENTER_ALIGNMENT);
         add(increaseButton);
+        add(increaseButton1);
 
         // 버튼에 액션 리스너 추가
         increaseButton.addActionListener(e -> {
             state = false;
+        });
+        increaseButton1.addActionListener(e -> {
+            state1 = false;
         });
         new Thread(() -> {
             while (state) {
@@ -49,7 +56,7 @@ public class ThreadEx03 extends JFrame {
             }
         }).start();
         new Thread(() -> {
-            while (state) {
+            while (state1) {
                 try {
                     Thread.sleep(1000);
                     count2++;
