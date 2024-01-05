@@ -4,7 +4,7 @@ package coffee;
 public class Coffee {
     private Menu menu;
     private Barista barista;
-    public Coffee(Barista barista){
+    public Coffee(){
         this.barista = barista;
 
     }
@@ -12,7 +12,9 @@ public class Coffee {
         this.menu = menu;
     }
     public boolean SameItem(){
-        if (menu.)
-        return
+        if (menu.equals(barista.makeCoffee())){
+
+        }
+        return true;
     }
 }

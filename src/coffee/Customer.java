@@ -17,6 +17,6 @@ public class Customer {
 
     public void order(String menuName){
         Coffee coffee = barista.makeCoffee();
-        System.out.println(coffee.name+"을 받았습니다.");
+        System.out.println("을 받았습니다.");
     }
 }
